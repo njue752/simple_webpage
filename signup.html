@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="mybody">
+<nav >
+    <a href="index.html"><button>Home</button></a>
+    <a href="aboutus.html"><button>About Us</button></a>
+    <a href="contactus.html"><button>Contact Us</button></a>
+    <a href="gallery.html"><button  >Gallery</button></a>
+    <a href="#"><button  >Sign Up</button></a>
+    <hr>
+</nav>
+<form action="" method="">
+    <fieldset>
+        <div class="form-group">
+            <label for="first_name">FIRST NAME:</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Enter First Name">
+            <label for="last_name">LAST NAME:</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name">
+            <label for="middle_name">MIDDLE NAME:</label>
+            <input type="text" name="middle_name" id="middle_name" placeholder="Enter Middle Name">
+            <div class="form-inline">
+                <label>GENDER:</label><br>
+                <input type="radio" id="male" name="gender" value="MALE">
+                <label for="male">MALE</label>
+                <input type="radio" id="female" name="gender" value="FEMALE">
+                <label for="female">FEMALE</label>
+            </div>
+            <div class="form-inline">
+                <label >RESIDENCE:</label>
+                <input type="checkbox" id="residence1" name="residence" value="nairobi">
+                <label for="residence1">NAIROBI</label>
+                <input type="checkbox" id="residence2" name="residence" value="mombasa">
+                <label for="residence2">MOMBASA</label>
+                <input type="checkbox" id="residence3" name="residence" value="kisumu">
+                <label for="residence3">KISUMU</label>
+
+            </div>
+            <label for="marital_status" class="full-width">MARITAL STATUS</label>
+            <select name="marital_status" id="marital_status" class="full-width">
+                <option value="married">MARRIED</option>
+                <option value="single">SINGLE</option>
+                <option value="divorced">DIVORCED</option>
+                <option value="complicated">COMPLICATED</option>
+                <option value="open">OPEN</option>
+            </select>
+        </div>
+        <input type="submit" value="submit">
+    </fieldset>
+</form>
+</body>
+</html>
